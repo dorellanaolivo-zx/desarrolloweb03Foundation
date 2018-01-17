@@ -1,13 +1,25 @@
+body{
+  background-image: url(../img/fondo.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.contenedor{
+  background-color: rgba(0, 0, 153, 0.5);
+}
+
 div, article, aside, header, section{
-  border: 1px solid black;
   padding: 5px;
 }
-.imgstrech {
+
+.strech {
   padding: 0;
   margin: 0;
 }
 
-aside, section, header{
+aside, article, header{
   margin-top: 5px;
 	background-color: #e3f2fd;
 }
