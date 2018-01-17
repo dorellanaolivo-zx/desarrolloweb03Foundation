@@ -1,8 +1,13 @@
-div{
+div, article, aside, header, section{
   border: 1px solid black;
+  padding: 5px;
+}
+.imgstrech {
+  padding: 0;
+  margin: 0;
 }
 
-.droo {
-  padding: 4px;
-  margin: 0;
+aside, section, header{
+  margin-top: 5px;
+	background-color: #e3f2fd;
 }
