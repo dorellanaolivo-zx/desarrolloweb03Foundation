@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/foundation.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation-icons/3.0/foundation-icons.min.css">
     <link rel="stylesheet" href="css/app.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.3/js/all.js"></script>
   </head>
   <body>
     <div class="row contenedor">
@@ -14,8 +15,8 @@
       <!--Header-->
         <header class="column">
           <div class="column large-5 text-right">
-            <h2>Recetas de Madelita</h2>
-            <h5>Lo mejor para tu paladar</h5>
+            <h1>Recetas de Madelita</h1>
+            <h3>Lo mejor para tu paladar</h3>
           </div>
         </header>
       </div>
@@ -29,7 +30,7 @@
           </div>
           <!--Enlaces-->
           <div class="column">
-            <ul class="menu vertical text-left">
+            <ul>
              <li><a href="#">Inicio</a></li>
              <li><a href="#">Mi plato favorito</a></li>
              <li><a href="#">Mis recetas</a></li>
@@ -48,6 +49,14 @@
           <!--Historial-->
           <div class="column">
             <p class="strech"><strong>Historial</strong></p>
+            <ul>
+						  <li class=""><a href="#">Comida Manabita</a></li>
+							<li class=""><a href="#">Lo mejor de la sierra</a></li>
+							<li class=""><a href="#">Lo mejor de la costa</a></li>
+							<li class=""><a href="#">Desayunos Costeños</a></li>
+							<li class=""><a href="#">Las banderas del conchal</a></li>
+							<li class=""><a href="#">Papas con cuero</a></li>
+						</ul>
           </div>
         </aside>
       </div>
@@ -55,15 +64,49 @@
       <section class="column large-8">
           <!--Artículo-->
           <article class="column">
-            <h2>Título</h2>
-            <h3>fecha</h3>
-            <div class="column">Imagen</div>
-            <div class="column">Texto</div>
+            <h3>Guatita</h3>
+            <h4>17 de Enero de 2018</h4>
+            <div class="column strech thumbnail"><img src="img/bandera.png" alt="Bandera"></div>
             <div class="column">
-              <div class="column large-1">Icono</div>
-              <div class="column large-11">TextArea</div>
+              <div class="column large-6">
+                <p>INGREDIENTES:</p>
+                <ul>
+                  <li>- 500 gr de panza de res</li>
+                  <li>- 4 cucharadas de pasta de maní</li>
+                  <li>- 5 cucharadas de cebolla blanca picada</li>
+                  <li>- 2 lb de papas cocinadas</li>
+                  <li>- 2 dientes de ajo picados</li>
+                  <li>- 2 tazas de leche</li>
+                  <li>- Aceite con achote para freír</li>
+                  <li>- Sal y pimienta al gusto</li>
+                </ul>
+              </div>
+              <div class="column large-6">
+                <p>PREPARACION:</p>
+                <p class="text-justify">En una olla a presión cocine la guatita hasta que se ablande. Luego fría en un sartén la cebolla, el ajo, la sal y la pimienta como en un refrito. Luego aumente la pasta de maní, la leche y las papas cocinadas hasta lograr espesor. Se debe revolver con una cuchara de palo. Para servir se debe cortar la guata en cubitos y añadirla a la salsa.</p>
+              </div>
             </div>
+            <hr>
+            <div class="column">
+              <label for="comentarios"></h6>
+								<textarea placeholder="Deja tus comentarios..."></textarea>
+							</label>
+            </div>
+            <div class="column text-right">
+              <button type="button" class="button text-justify">Publicar</button>
+            </div>
+            <hr>
+            <div class="column">
+              <div class="column large-2 strech">
+                <img src="img/user01.png" alt="Usuario">
+              </div>
+              <div class="column large-10 vertical">
+                <p><strong>Nico: </strong>Muchas gracias por el aporte</p>
+              </div>
+            </div>
+            <hr>
           </article>
+
       </section>
     </div>
 

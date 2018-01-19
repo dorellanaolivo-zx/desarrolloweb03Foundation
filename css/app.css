@@ -11,7 +11,7 @@ body{
 }
 
 div, article, aside, header, section{
-  padding: 5px;
+  padding: 0.3em;
 }
 
 .strech {
@@ -20,6 +20,15 @@ div, article, aside, header, section{
 }
 
 aside, article, header{
-  margin-top: 5px;
+  border-radius: 0.5em;
+  margin-top: 0.3em;
 	background-color: #e3f2fd;
+}
+
+ul {
+	list-style: none;
+}
+
+.vertical{
+  vertical-align: middle!important;
 }
